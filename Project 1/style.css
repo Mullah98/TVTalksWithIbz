@@ -1,0 +1,77 @@
+html {
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    background-image: url("myBackground.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+
+body {  
+    text-align: left;  
+    line-height: 1.4em;
+  }
+
+table, th, td {
+    border: 1px solid black;
+  }
+  
+.content-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  border: 5px solid;
+  height: 70px;
+  width: 100%;
+  color: whitesmoke;
+  border-color: black;
+  
+}
+
+.content-table thead tr {
+  background-color: red;
+}
+
+.content-table tbody tr {
+  background-color: lightslategrey;
+}
+
+.pro {
+  background-color: green;
+}
+
+h1 {
+    font-size: 38px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:red;
+    background-color:	#C0C0C0;
+    text-transform: uppercase;
+    text-align: center;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    padding: 10px;
+}
+
+h2 {
+  font-size: 30px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: whitesmoke;
+  border-top-style: outset;
+  border-bottom-style: outset;
+  padding: 5px;
+  border-color: red;
+}
+
+p {
+  color: whitesmoke;
+}
+
+#myVideo {
+  border: 5px solid white;
+}
+
+#myImage {
+  border: 5px solid white;
+}
